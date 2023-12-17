@@ -25,6 +25,7 @@ body {
     border-radius: 5px;
     padding: 0 10px;
     background-color: red;
+    color: white;
 }
 /*Cell style*/
 .cells {
@@ -115,7 +116,7 @@ body {
 .toast {
     text-transform: uppercase;
     background-color: red;
-    color: brown;
+    color: white;
     padding: 10px;
     border-radius: 5px;
     font-size: 30px;

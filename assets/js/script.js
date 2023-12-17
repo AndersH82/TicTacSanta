@@ -6,8 +6,8 @@ const resetBtn = document.querySelector(".resetBtn");
 const toastDiv = document.querySelector(".toast");
 const draws = document.querySelector("#draws");
 
-const playerX = "SANTA";
-const playerO = "RAINDEER";
+const playerX = "santa";
+const playerO = "raindeer";
 let playerXScore = 0;
 let playerOScore = 0;
 let currentLevel = 1;
