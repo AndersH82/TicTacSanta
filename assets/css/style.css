@@ -37,3 +37,20 @@ body {
     width: 100%;
     padding: 0 20px;
 }
+/*Reset button*/
+.resetBtn {
+    text-transform: uppercase;
+    margin: 20px auto;
+    display: block;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #d80909;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.resetBtn:hover {
+    background-color: red;
+}
