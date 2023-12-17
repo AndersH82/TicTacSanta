@@ -109,3 +109,18 @@ function toast(msg) {
     });
     flag = true;
  }
+ //Reset button
+ resetBtn.addEventListener("click", () => {
+    flag = false;
+    reset();
+    currentLevel = 1;
+    playerOScore = 0;
+    playerXScore = 0;
+    playerOScoreSpan.textContent = playerOScore;
+    playerXScoreSpan.textContent = playerXScore;
+    toast("game reset!");
+    setTimeout(() => {
+        toast(`level ${currentLevel}`);
+        flag = true;
+    }, 2000);
+ });
