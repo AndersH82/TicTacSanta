@@ -28,3 +28,84 @@ const winCombos = [
 for (let i = 0; i < cells.length; i++) {
     cells[i].addEventListener("click", cellClicked);
 }
+//Function
+function cellClicked(e) {
+    if (flag) {
+        if (e.target.innerHTML === "") {
+          e.target.appenChild(addImg(currentPlayer));
+          checkWinner();
+          checkDraw();
+          if (currentPlayer === playerX) {
+            currentPlayer = playerO;
+          } else {
+            currentPlayer = playerX;
+          }  
+        }
+    }
+}
+
+function addImg(type) {
+    const img = document.createElement("img");
+    img.src = `${type}.png`;
+    return img;
+}
+
+function checkWinner() {
+    for (let i = 0; i < winCombos.length; i++){
+        const winCombo = winCombos[i];
+        const cell1 = cells[winCombo[0]];
+        const cell2 = cells[winCombo[1]];
+        const cell3 = cells[winCombo[2]];
+        if (
+            cell1.innerHTML !== "" &&
+            cell2.innerHTML === cell2.innerHTML &&
+            cell3.innerHTML === cell3.innerHTML
+        ) {
+          toast(`Player ${currentPlayer} wins!`);
+          updateScore();
+          flag = false;
+          currentLevel++;
+          setTimeout(() => {
+            reset();
+            toast(`level ${currentLevel}`);
+          }, 2000);
+        }
+    }
+
+}
+
+function checkDraw() {
+   if ([...cells]).every((cell)) => cell.innerHTML !== "")) {
+    toast("its a draw");
+    currentLevel++;
+    setTimeout(() => {
+        reset();
+        toast(`level ${currentLevel}`);
+    }, 2000)
+   }
+}
+
+function toast(msg) {
+    toastDiv.classList.add("show");
+    toastDiv.textContent = msg;
+    setTimeout(() => {
+        toastDiv.classList.remove("show");
+    }, 1000);
+ }
+
+ function updateScore() {
+    if (currentPlayer === playerX) {
+        pleyerXScore++;
+        playerOScoreSpan.textContent = playerXScore;
+    }else {
+        pleyerOScore++;
+        playerOScoreSpan.textContent = pleyerOScore;
+    }
+ }
+
+ function reset() {
+    cells.forEach((cell)) => {
+        cell.innerHTML = "";
+    });
+    flag = true;
+ }
