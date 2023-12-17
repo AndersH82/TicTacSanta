@@ -8,11 +8,11 @@ const draws = document.querySelector("#draws");
 
 const playerX = "SANTA";
 const playerO = "RAINDEER";
-let pleyerXScore = 0;
+let playerXScore = 0;
 let playerOScore = 0;
 let currentLevel = 1;
 let flag = true;
-let currentPlayer= playerX;
+let currentPlayer = playerX;
 
 const winCombos = [
     [0, 1, 2],
@@ -32,14 +32,14 @@ for (let i = 0; i < cells.length; i++) {
 function cellClicked(e) {
     if (flag) {
         if (e.target.innerHTML === "") {
-          e.target.appenChild(addImg(currentPlayer));
-          checkWinner();
-          checkDraw();
-          if (currentPlayer === playerX) {
-            currentPlayer = playerO;
-          } else {
-            currentPlayer = playerX;
-          }  
+            e.target.appendChild(addImg(currentPlayer));
+            checkWinner();
+            checkDraw();
+            if (currentPlayer === playerX) {
+                currentPlayer = playerO;
+            } else {
+                currentPlayer = playerX;
+            }
         }
     }
 }
@@ -51,38 +51,37 @@ function addImg(type) {
 }
 
 function checkWinner() {
-    for (let i = 0; i < winCombos.length; i++){
+    for (let i = 0; i < winCombos.length; i++) {
         const winCombo = winCombos[i];
         const cell1 = cells[winCombo[0]];
         const cell2 = cells[winCombo[1]];
         const cell3 = cells[winCombo[2]];
         if (
             cell1.innerHTML !== "" &&
-            cell2.innerHTML === cell2.innerHTML &&
-            cell3.innerHTML === cell3.innerHTML
+            cell1.innerHTML === cell2.innerHTML &&
+            cell1.innerHTML === cell3.innerHTML
         ) {
-          toast(`Player ${currentPlayer} wins!`);
-          updateScore();
-          flag = false;
-          currentLevel++;
-          setTimeout(() => {
-            reset();
-            toast(`level ${currentLevel}`);
-          }, 2000);
+            toast(`Player ${currentPlayer} wins!`);
+            updateScore();
+            flag = false;
+            currentLevel++;
+            setTimeout(() => {
+                reset();
+                toast(`level ${currentLevel}`);
+            }, 2000);
         }
     }
-
 }
 
 function checkDraw() {
-   if ([...cells]).every((cell)) => cell.innerHTML !== "")) {
-    toast("its a draw");
-    currentLevel++;
-    setTimeout(() => {
-        reset();
-        toast(`level ${currentLevel}`);
-    }, 2000)
-   }
+    if ([...cells].every((cell) => cell.innerHTML !== "")) {
+        toast("its a draw");
+        currentLevel++;
+        setTimeout(() => {
+            reset();
+            toast(`level ${currentLevel}`);
+        }, 2000);
+    }
 }
 
 function toast(msg) {
@@ -91,26 +90,26 @@ function toast(msg) {
     setTimeout(() => {
         toastDiv.classList.remove("show");
     }, 1000);
- }
+}
 
- function updateScore() {
+function updateScore() {
     if (currentPlayer === playerX) {
-        pleyerXScore++;
-        playerOScoreSpan.textContent = playerXScore;
-    }else {
-        pleyerOScore++;
-        playerOScoreSpan.textContent = pleyerOScore;
+        playerXScore++;
+        playerXScoreSpan.textContent = playerXScore;
+    } else {
+        playerOScore++;
+        playerOScoreSpan.textContent = playerOScore;
     }
- }
+}
 
- function reset() {
-    cells.forEach((cell)) => {
+function reset() {
+    cells.forEach((cell) => {
         cell.innerHTML = "";
     });
     flag = true;
- }
- //Reset button
- resetBtn.addEventListener("click", () => {
+}
+//Reset button
+resetBtn.addEventListener("click", () => {
     flag = false;
     reset();
     currentLevel = 1;
@@ -123,4 +122,4 @@ function toast(msg) {
         toast(`level ${currentLevel}`);
         flag = true;
     }, 2000);
- });
+});
