@@ -11,7 +11,7 @@
 body {
     min-height: 100vh;
     display: grid;
-    grid-template-rows: : 1fr auto;
+    grid-template-rows: 1fr auto;
     align-items: center;
     justify-content: center;
     color: brown;
@@ -98,7 +98,7 @@ footer {
 text-transform: uppercase;
     text-align: center;
     margin-top: auto;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 0%;
     padding: 0 10px;
     background-color: red;
