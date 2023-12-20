@@ -1,78 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Meta tags for search engine-->
-    <meta name="description" content="Tic Tac Santa A fun gume for 2 players">
-    <meta name="keywords" content="tic tac santa, tic tac toe, santa, raindeer, 2player, fun game">
+    <meta name="description" content="Tic Tac Santa A fun gume for 2 players" />
+    <meta
+      name="keywords"
+      content="tic tac santa, tic tac toe, santa, raindeer, 2player, fun game"
+    />
     <!--Title-->
     <title>TicTacSanta</title>
     <!--Favicon-->
-    <link rel="shortcut icon" type="image/png" href="assets/image/favicon.png">
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/image/favicon.png"
+    />
     <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-    <!--Header-->
-<header>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <!--Header-->
+  <header>
     <div class="header">
-        <a class="logo">Tic Tac Santa</a>
+      <a class="logo">Tic Tac Santa</a>
     </div>
-    </header>
-<body>
+  </header>
+
+  <body>
     <!--Game content-->
     <div class="container">
-        <h1 class="heading"></h1>
-        <div class="game">
-            <div class="cells">
-                <div class="cell one"></div>
-                <div class="cell two"></div>
-                <div class="cell three"></div>
-            </div>
-            <div class="cells">
-                <div class="cell four"></div>
-                <div class="cell five"></div>
-                <div class="cell six"></div>
-            </div>
-            <div class="cells">
-                <div class="cell seven"></div>
-                <div class="cell eight"></div>
-                <div class="cell nine"></div>
-            </div>
-            <!--Score content-->
-            <div class="score">
-                <h1>Score</h1>
-                <div class="score-inner">
-                    <h2>Santa: <span id="playerXScore">0</span></h2>
-                    <h2>Raindeer: <span id="playerOScore">0</span></h2>
-                </div>
-                <div class="score-inner">
-                    <h2>Draws</h2>
-                    <h2 id="draws">0</h2>
-                </div>
-            </div>
-            <!--Reset button-->
-            <button class="resetBtn">reset</button>
-            <div class="toast">text</div>
+      <h1 class="heading"></h1>
+      <div class="game">
+        <div class="cells">
+          <div class="cell one"></div>
+          <div class="cell two"></div>
+          <div class="cell three"></div>
         </div>
+        <div class="cells">
+          <div class="cell four"></div>
+          <div class="cell five"></div>
+          <div class="cell six"></div>
+        </div>
+        <div class="cells">
+          <div class="cell seven"></div>
+          <div class="cell eight"></div>
+          <div class="cell nine"></div>
+        </div>
+        <!--Score content-->
+        <div class="score">
+          <h1>Score</h1>
+          <div class="score-inner">
+            <h2>Santa: <span id="playerXScore">0</span></h2>
+            <h2>Raindeer: <span id="playerOScore">0</span></h2>
+          </div>
+          <div class="score-inner">
+            <h2>Draws</h2>
+            <h2 id="draws">0</h2>
+          </div>
+        </div>
+        <!--Reset button-->
+        <button class="resetBtn">reset</button>
+        <div class="toast">text</div>
+      </div>
     </div>
-</body>
-    <!--Rules section-->
-    <section>
-      <h1>Rules of the game</h1>
-      <h2>2 Player Game</h2>
-      <h3>
-        <ul>
-          <li>The game is played on a grid that's 3 squares by 3 squares.</li>
-          <li>You are Santa, your friend  is Raindeer. Players take turns putting their marks in empty square.</li>
-          <li>The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.</li>
-          <li>When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</li>
-        </ul>
-      </h3>
-    </section>
-    <footer>&copy; 2023 Anders Holst</footer>
-    <!--Script-->
-    <script src="assets/js/script.js"></script>
+  </body>
+  <!--Rules section-->
+  <section>
+    <h1>Rules of the game</h1>
+    <h2>2 Player Game</h2>
+    <h3>
+      <ul>
+        <li>The game is played on a grid that's 3 squares by 3 squares.</li>
+        <li>
+          You are Santa, your friend is Raindeer. Players take turns putting
+          their marks in empty square.
+        </li>
+        <li>
+          The first player to get 3 of her marks in a row (up, down, across, or
+          diagonally) is the winner.
+        </li>
+        <li>
+          When all 9 squares are full, the game is over. If no player has 3
+          marks in a row, the game ends in a tie.
+        </li>
+      </ul>
+    </h3>
+  </section>
+  <footer>&copy; 2023 Anders Holst</footer>
+  <!--Script-->
+  <script src="assets/js/script.js"></script>
 </html>
