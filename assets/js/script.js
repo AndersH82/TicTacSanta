@@ -43,13 +43,13 @@ function cellClicked(e) {
         }
     }
 }
-
+//Add image to player
 function addImg(type) {
     const img = document.createElement("img");
     img.src = `${type}.png`;
     return img;
 }
-
+//Check winner
 function checkWinner() {
     for (let i = 0; i < winCombos.length; i++) {
         const winCombo = winCombos[i];
@@ -67,23 +67,23 @@ function checkWinner() {
             currentLevel++;
             setTimeout(() => {
                 reset();
-                toast(`level ${currentLevel}`);
+                toast(`stage ${currentLevel}`);
             }, 2000);
         }
     }
 }
-
+//Check draw
 function checkDraw() {
     if ([...cells].every((cell) => cell.innerHTML !== "")) {
         toast("its a draw");
         currentLevel++;
         setTimeout(() => {
             reset();
-            toast(`level ${currentLevel}`);
+            toast(`stage ${currentLevel}`);
         }, 2000);
     }
 }
-
+//Toast
 function toast(msg) {
     toastDiv.classList.add("show");
     toastDiv.textContent = msg;
@@ -91,7 +91,7 @@ function toast(msg) {
         toastDiv.classList.remove("show");
     }, 1000);
 }
-
+//Update score
 function updateScore() {
     if (currentPlayer === playerX) {
         playerXScore++;
@@ -119,7 +119,7 @@ resetBtn.addEventListener("click", () => {
     playerXScoreSpan.textContent = playerXScore;
     toast("game reset!");
     setTimeout(() => {
-        toast(`level ${currentLevel}`);
+        toast(`stage ${currentLevel}`);
         flag = true;
     }, 2000);
 });
