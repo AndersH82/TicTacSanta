@@ -1,4 +1,4 @@
-//Constant
+//Variable
 const cells = document.querySelectorAll(".cell");
 const playerXScoreSpan = document.querySelector("#playerXScore");
 const playerOScoreSpan = document.querySelector("#playerOScore");
@@ -14,6 +14,7 @@ let currentLevel = 1;
 let flag = true;
 let currentPlayer = playerX;
 
+//Win combos
 const winCombos = [
   [0, 1, 2],
   [3, 4, 5],
@@ -28,7 +29,7 @@ const winCombos = [
 for (let i = 0; i < cells.length; i++) {
   cells[i].addEventListener("click", cellClicked);
 }
-//Function
+//Function cell clicked
 function cellClicked(e) {
   if (flag) {
     if (e.target.innerHTML === "") {
@@ -91,7 +92,7 @@ function toast(msg) {
     toastDiv.classList.remove("show");
   }, 1000);
 }
-//Update score
+//Update score for players
 function updateScore() {
   if (currentPlayer === playerX) {
     playerXScore++;
@@ -101,7 +102,7 @@ function updateScore() {
     playerOScoreSpan.textContent = playerOScore;
   }
 }
-
+//Reset no moves left
 function reset() {
   cells.forEach((cell) => {
     cell.innerHTML = "";
