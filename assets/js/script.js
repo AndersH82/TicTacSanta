@@ -46,7 +46,7 @@ function cellClicked(e) {
 //Add image to player
 function addImg(type) {
   const img = document.createElement("img");
-  img.src = `${type}.png`;
+  img.src = "assets/image/" +`${type}.png`;
   return img;
 }
 //Check winner
