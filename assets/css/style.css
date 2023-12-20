@@ -95,7 +95,7 @@ header {
 /*Heading style*/
 
 footer {
-text-transform: uppercase;
+    text-transform: uppercase;
     text-align: center;
     margin-top: auto;
     font-size: 20px;
@@ -104,6 +104,23 @@ text-transform: uppercase;
     background-color: red;
     color: white;
 }
+/*Rules section*/
+
+section {
+    text-align: center;
+    margin-top: auto;
+    font-size: 20px;
+    border-radius: 0%;
+    padding: 0 10px;
+}
+h1 {
+    text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+}
+
+
 /*Score style*/
 .score {
     margin-top: 10vh;
