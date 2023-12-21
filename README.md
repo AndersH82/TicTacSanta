@@ -32,16 +32,24 @@ The Tic Tac Santa page is live, the link to the page can be found <a href="https
 ## UX
 
 ### Site Purpose
+The site aims to make people have a little fun during the stress of Christmas
 
 ### Site Goal
+To regularly update our current users with the latest information about upcoming updates and new game features.
 
 ### Audience
+For everyone who loves small simple games. Our market is for those who like old honest games. Male and female aged 0-99.
 
 ### User Goal
+To see regular updates of the game and functions.
+To navigate the site ease & clearly understand se information that is being shown.
+For the information to be up-to-date.
 
 ## Design
 
 ### Colour Scheme
+Main Colours
+<img title="Main Colours" alt="Main Colours" src="assets/image-readme/PaletteMain.png">
 
 ### Typography
 

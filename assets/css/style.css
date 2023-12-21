@@ -14,7 +14,7 @@ body {
   grid-template-rows: 1fr auto;
   align-items: center;
   justify-content: center;
-  color: brown;
+  color: rgb(165, 42, 42);
   background-color: white;
   padding-bottom: 50vh;
   justify-items: center;
