@@ -13,7 +13,6 @@ The Tic Tac Santa page is live, the link to the page can be found <a href="https
 + [Design](#design "Design")
   + [Colour Scheme](#colour-scheme "Colour Scheme")
   + [Typography](#typography "Typography")
-  + [Imagery](#imagery "Imagery")
 + [Features](#features "Features")
   + [Landing Page](#landing-page "Landing Page")
 + [Testing](#testing "Testing")
@@ -48,16 +47,31 @@ For the information to be up-to-date.
 ## Design
 
 ### Colour Scheme
-Main Colours
-<img title="Main Colours" alt="Main Colours" src="assets/image-readme/PaletteMain.png">
+This colours is used for the text, board, header, footer and button.
+
+ <img title="Main Colours" alt="Main Colours" src="assets/image-readme/palettemain.png">
+
+His colours is used for tha player santa and raindeer.
+
+<img title="Main Colours" alt="Main Colours" src="assets/image-readme/playerpalette.png">
+
+The palette is from Coolors<a href="https://coolors.co/"> Click here!</a>
 
 ### Typography
 
-### Imagery
+Uses font "Lato" for a smooth texture and for the text to be visible to players on different screen sizes.
+
+If you want this font, it can be found here Google Fonts. <a href="https://fonts.google.com/specimen/Lato?query=lato">Click here!</a>
 
 ## Features
 
 ### Landing Page
+
+Here is the landing page.
+
+<img title="Landing Page" alt="Landing Page" src="assets/image-readme/landingpage.png">
+
+And you can visit the website here. <a href="https://https://andersh82.github.io/TicTacSanta/">Click here!</a>
 
 ## Testing
 
