@@ -4,7 +4,7 @@ const playerXScoreSpan = document.querySelector("#playerXScore");
 const playerOScoreSpan = document.querySelector("#playerOScore");
 const resetBtn = document.querySelector(".resetBtn");
 const toastDiv = document.querySelector(".toast");
-const draws = document.querySelector("#draws");
+
 
 const playerX = "santa";
 const playerO = "raindeer";
