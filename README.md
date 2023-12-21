@@ -2,6 +2,8 @@
 Tic-tac-toe (America English), noughts and crosses (Commonwealth English), or Xs and Os (Canadian or Irish English) is a paper and pancile game for 2 players who take turns marking the squares in a three by three grid with X or O. The player who succeds in plasing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw assuming best play from both players.
 ![Ui dev Responsive](https://github.com/AndersH82/TicTacSanta/assets/150241728/7646aac9-6d96-4125-ab81-946194bca17d)
 
+The Tic Tac Santa page is live, the link to the page can be found <a href="https://andersh82.github.io/TicTacSanta/" rel="nofollow">HERE</a>
+
 ## Table of Contents
 + [UX](#ux "UX")
   + [Site Purpose](#site-purpose "Site Purpose")
