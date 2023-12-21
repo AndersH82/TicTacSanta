@@ -3,12 +3,12 @@ Tic-tac-toe (America English), noughts and crosses (Commonwealth English), or Xs
 ![Ui dev Responsive](https://github.com/AndersH82/TicTacSanta/assets/150241728/7646aac9-6d96-4125-ab81-946194bca17d)
 
 ## Table of Contents
-+ [UX](#ux "UX)
++ [UX](#ux "UX")
   + [Site Purpose](#site-purpose "Site Purpose")
   + [Site Goal](#site-goal "SIte Goal")
   + [Audience](#audience "Audience")
   + [User Goal](#user-goal "User Goal")
-+ [Design]
++ [Design](#design "Design")
   + [Colour Scheme](#colour-scheme "Colour Scheme")
   + [Typography](#typography "Typography")
   + [Imagery](#imagery "Imagery")
@@ -26,3 +26,49 @@ Tic-tac-toe (America English), noughts and crosses (Commonwealth English), or Xs
 + [Credits](#credits "Credits")
   + [Content](#Content "Content")
   + [Media](#media "Media")
+
+## UX
+
+### Site Purpose
+
+### Site Goal
+
+### Audience
+
+### User Goal
+
+## Design
+
+### Colour Scheme
+
+### Typography
+
+### Imagery
+
+## Features
+
+### Landing Page
+
+## Testing
+
+### Validation Testing
+
+### JavaScript Testing
+
+### Lighthouse Testing
+
+### Unfixed Bugs
+
+## Technologies Used
+
+### Languages Used
+
+### Frameworks, Libraries & Program Used
+
+## Deployment
+
+## Credits
+
+### Content
+
+### Media
