@@ -49,11 +49,11 @@ For the information to be up-to-date.
 ### Colour Scheme
 This colours is used for the text, board, header, footer and button.
 
- <img title="Main Colours" alt="Main Colours" src="assets/image-readme/palettemain.png">
+ <img src="assets/image-readme/palettemain.png">
 
 His colours is used for tha player santa and raindeer.
 
-<img title="Main Colours" alt="Main Colours" src="assets/image-readme/playerpalette.png">
+<img src="assets/image-readme/playerpalette.png">
 
 The palette is from Coolors<a href="https://coolors.co/"> Click here!</a>
 
@@ -67,9 +67,9 @@ If you want this font, it can be found here Google Fonts. <a href="https://fonts
 
 ### Landing Page
 
-Here is the landing page.
+This defines the feel of the website, providing the user with an image that they can easily see what they have to do.
 
-<img title="Landing Page" alt="Landing Page" src="assets/image-readme/landingpage.png">
+<img src="assets/image-readme/landingpage.png">
 
 And you can visit the website here. <a href="https://https://andersh82.github.io/TicTacSanta/">Click here!</a>
 
@@ -77,20 +77,54 @@ And you can visit the website here. <a href="https://https://andersh82.github.io
 
 ### Validation Testing
 
+Here is the answer from W3C Markup Validation of HTML.
+
+<img src="assets/image-readme/htmlval.png">
+
+Here is the answer from W3C CSS Validation for CSS.
+
+<img src="assets/image-readme/cssval.png">
+
+Have one warning: Imported templates are not reviewed when entering directly or when uploading files.
+
 ### JavaScript Testing
 
 ### Lighthouse Testing
+
+Here is the test for desktop.
+
+<img src="assets/image-readme/lighthousedesk.png">
+
+and this is test for the mobile.
+
+<img src="assets/image-readme/lighthousemobile.png">
 
 ### Unfixed Bugs
 
 ## Technologies Used
 
 ### Languages Used
+ - Html
+ - Css
+ - JavaScript
 
 ### Frameworks, Libraries & Program Used
+ - Gitpod
+ - Codeanywhere
+ - Github
+ - Replit (Desktop)
+ - VS Code (Destop)
+ - Google Fonts 
+ - Freepik (Favicon, Santa and raindeer)
+ - Ui.dev  (Am I Responsive)
 
 ## Deployment
+For deployed to GitHub website. The steps to deploy are as follows:
 
+ - In the GitHub repository, navigate to the Settings 
+ - From the source section drop-down menu, select the Master Branch
+ - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+ - The live link can be found <a href="https://andersh82.github.io/TicTacSanta/">HERE</a>
 ## Credits
 
 ### Content

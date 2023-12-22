@@ -12,11 +12,10 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-rows: 1fr auto;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   color: rgb(165, 42, 42);
   background-color: white;
-  padding-bottom: 50vh;
   justify-items: center;
 }
 header {
