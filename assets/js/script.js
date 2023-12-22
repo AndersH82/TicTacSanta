@@ -49,12 +49,20 @@ function cellClicked(e) {
   }
 }
 
-//Add image to player
+//Add image to player with try and catch error
 
-function addImg(type) {
+try {
+  console.log('Start of try runs');
+  function addImg(type) {
   const img = document.createElement("img");
   img.src = "assets/image/" +`${type}.png`;
   return img;
+  console.log('End of try runs -- never reached');
+}
+  
+} catch (error) {
+  console.log('Error has occured: ' + err); 
+  
 }
 
 //Check winner
