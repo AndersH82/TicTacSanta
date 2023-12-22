@@ -1,4 +1,5 @@
 //Variable
+
 const cells = document.querySelectorAll(".cell");
 const playerXScoreSpan = document.querySelector("#playerXScore");
 const playerOScoreSpan = document.querySelector("#playerOScore");
@@ -15,6 +16,7 @@ let flag = true;
 let currentPlayer = playerX;
 
 //Win combos
+
 const winCombos = [
   [0, 1, 2],
   [3, 4, 5],
@@ -29,7 +31,9 @@ const winCombos = [
 for (let i = 0; i < cells.length; i++) {
   cells[i].addEventListener("click", cellClicked);
 }
+
 //Function cell clicked
+
 function cellClicked(e) {
   if (flag) {
     if (e.target.innerHTML === "") {
@@ -44,13 +48,17 @@ function cellClicked(e) {
     }
   }
 }
+
 //Add image to player
+
 function addImg(type) {
   const img = document.createElement("img");
   img.src = "assets/image/" +`${type}.png`;
   return img;
 }
+
 //Check winner
+
 function checkWinner() {
   for (let i = 0; i < winCombos.length; i++) {
     const winCombo = winCombos[i];
@@ -73,7 +81,9 @@ function checkWinner() {
     }
   }
 }
+
 //Check draw
+
 function checkDraw() {
   if ([...cells].every((cell) => cell.innerHTML !== "")) {
     toast("its a draw");
@@ -84,7 +94,9 @@ function checkDraw() {
     }, 2000);
   }
 }
+
 //Toast
+
 function toast(msg) {
   toastDiv.classList.add("show");
   toastDiv.textContent = msg;
@@ -92,7 +104,9 @@ function toast(msg) {
     toastDiv.classList.remove("show");
   }, 1000);
 }
+
 //Update score for players
+
 function updateScore() {
   if (currentPlayer === playerX) {
     playerXScore++;
@@ -102,14 +116,18 @@ function updateScore() {
     playerOScoreSpan.textContent = playerOScore;
   }
 }
+
 //Reset no moves left
+
 function reset() {
   cells.forEach((cell) => {
     cell.innerHTML = "";
   });
   flag = true;
 }
+
 //Reset button
+
 resetBtn.addEventListener("click", () => {
   flag = false;
   reset();
