@@ -77,11 +77,15 @@ And you can visit the website here. <a href="https://https://andersh82.github.io
 
 ### Validation Testing
 
-Here is the answer from W3C Markup Validation of HTML.
+- Here is the answer from W3C Markup Validation of HTML.
+
+- Here is the link to validat the live website <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fandersh82.github.io%2FTicTacSanta%2F"> HERE</a>
 
 <img src="assets/image-readme/htmlval.png">
 
-Here is the answer from W3C CSS Validation for CSS.
+- Here is the answer from W3C CSS Validation for CSS.
+
+- Here is the link to validat the live website <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandersh82.github.io%2FTicTacSanta%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv">HERE</a>
 
 <img src="assets/image-readme/cssval.png">
 

@@ -51,15 +51,15 @@ function cellClicked(e) {
 
 //Add image to player with try and catch 
 
-  function addImg(type) {
-    try {
-       const img = document.createElement("img");
-  img.src = "assets/image/" +`${type}.png`;
-  console.log(img)
-  return img;
-    }catch (err) {
-      console.log('error', error);
-    }
+function addImg(type) {
+ try {
+     const img = document.createElement("img");
+     img.src = "assets/image/" +`${type}.png`;
+     console.log(img);
+     return img;
+     }catch (err) {
+     console.log(err);
+     }
 }
   
 
