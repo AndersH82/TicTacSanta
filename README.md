@@ -153,6 +153,7 @@ If you click in the same cell, it stores the player's images and then creates a 
  - Jshint
  - Balsamiq Wireframes
  - Grammarly
+ - Youtube - Open Source Coding
 
 ## Deployment
 For deployment to the GitHub website. The steps to deploy are as follows:
