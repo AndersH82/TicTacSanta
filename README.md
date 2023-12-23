@@ -13,6 +13,7 @@ The Tic Tac Santa page is live, the link to the page can be found <a href="https
 + [Design](#design "Design")
   + [Colour Scheme](#colour-scheme "Colour Scheme")
   + [Typography](#typography "Typography")
+  + [Wireframe](#wireframe "Wireframe")
 + [Features](#features "Features")
   + [Landing Page](#landing-page "Landing Page")
 + [Testing](#testing "Testing")
@@ -63,6 +64,16 @@ Uses font "Lato" for a smooth texture and for the text to be visible to players 
 
 If you want this font, it can be found here Google Fonts. <a href="https://fonts.google.com/specimen/Lato?query=lato">Click here!</a>
 
+### Wireframe
+
+Dekstop wireframe
+
+<img src="assets/image-readme/tictacsantadesk.png">
+
+Mobile wireframe
+
+<img src="assets/image-readme/tictacsantamobile.png">
+
 ## Features
 
 ### Landing Page
@@ -93,6 +104,14 @@ Have one warning: Imported templates are not reviewed when entering directly or 
 
 ### JavaScript Testing
 
+Here is the test from Jshint
+
+Here is the link to Jshint <a href="https://jshint.com/">HERE</a>
+
+<img src="assets/image-readme/jshint.png">
+
+There is a warning on line 86 which is a loop but it does not disturb the game itself.
+
 ### Lighthouse Testing
 
 Here is the test for desktop.
@@ -104,6 +123,11 @@ and this is test for the mobile.
 <img src="assets/image-readme/lighthousemobile.png">
 
 ### Unfixed Bugs
+
+There is a bug that I found out a little too late to catch before submitting. This does not affect gameplay.
+If you click in the same cell, it stores the player's images and then creates a cheat.
+
+<img src="assets/image-readme/unfixedbug.png">
 
 ## Technologies Used
 
@@ -121,6 +145,10 @@ and this is test for the mobile.
  - Google Fonts 
  - Freepik (Favicon, Santa and raindeer)
  - Ui.dev  (Am I Responsive)
+ - W3C Validator
+ - Jshint
+ - Balsamiq Wireframes
+ - 
 
 ## Deployment
 For deployed to GitHub website. The steps to deploy are as follows:
@@ -132,5 +160,9 @@ For deployed to GitHub website. The steps to deploy are as follows:
 ## Credits
 
 ### Content
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README  | Help generate the Markdown files |
 
 ### Media
