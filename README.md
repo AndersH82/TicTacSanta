@@ -27,7 +27,7 @@ The Tic Tac Santa page is live, the link to the page can be found <a href="https
 + [Deployment](#deployment "Deployment")
 + [Credits](#credits "Credits")
   + [Content](#Content "Content")
-  + [Media](#media "Media")
+  + [Acknowledgements](#acknowledgements "Acknowledgements")
 
 ## UX
 
@@ -124,7 +124,7 @@ and this is test for the mobile.
 
 ### Unfixed Bugs
 
-There is a bug that I found out a little too late to catch before submitting. This does not affect gameplay.
+There is a bug that I found out a little too late to catch before submitting. This does not effect gameplay.
 If you click in the same cell, it stores the player's images and then creates a cheat.
 
 <img src="assets/image-readme/unfixedbug.png">
@@ -165,4 +165,7 @@ For deployed to GitHub website. The steps to deploy are as follows:
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README  | Help generate the Markdown files |
 
-### Media
+### Acknowledgements
+
+- I would like to thank my Code Institute mentor, Rory Patrick Sheridan for his support throughout the development of this project.
+- I would like to thank the Code Institute Slack community for the and nov-2023-dfs-gut class for all the help.
