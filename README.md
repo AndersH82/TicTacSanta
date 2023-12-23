@@ -152,7 +152,7 @@ If you click in the same cell, it stores the player's images and then creates a 
  - W3C Validator
  - Jshint
  - Balsamiq Wireframes
- - 
+ - Grammarly
 
 ## Deployment
 For deployment to the GitHub website. The steps to deploy are as follows:
