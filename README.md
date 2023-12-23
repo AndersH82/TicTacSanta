@@ -82,6 +82,10 @@ This defines the feel of the website, providing the user with an image that they
 
 <img src="assets/image-readme/landingpage.png">
 
+And here is th 404.html page.
+
+<img src="assets/image-readme/404.png">
+
 And you can visit the website here. <a href="https://https://andersh82.github.io/TicTacSanta/">Click here!</a>
 
 ## Testing
